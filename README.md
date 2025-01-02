@@ -16,7 +16,7 @@ sectors to preserve edge details.
 
 
 
-## Test
+## Test Cart2Pol2Cart
 Run `python main.py img.png` will obtain the figures below. 
 - The first row is the original image in Cartesian space;
 - the second row is the image transformed into polar coordinate space;
@@ -31,3 +31,21 @@ The first two columns are generated using the original `cv2.WARP_POLAR_LINEAR` a
 Another example
 
 ![](img2_res.png)
+
+
+
+## Test Pol2Cart2Pol
+Run `python main_inv.py img.png` will obtain the figures below. 
+- The first row is the original image in polar space;
+- the second row is the image transformed into Cartesian coordinate space;
+- and the third row is the image transformed back into polar space.
+
+The first two columns are generated using the original `cv2.WARP_POLAR_LINEAR` and `cv2.WARP_POLAR_LOG`. The original method focuses excessively on the centre of the image in Cartesian space.
+
+![](img_res_inv.png)
+
+
+Another example
+
+![](img2_res_inv.png)
+
