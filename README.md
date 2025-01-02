@@ -1,6 +1,6 @@
 # Mapping an image from Cartesian space to Polar space
 
-Adding new functionality to `cv.warpPolar` in [opencv](https://github.com/opencv/opencv/)
+Adding new functionality to `cv.warpPolar` in [opencv](https://github.com/opencv/opencv/).
 
 Resolved edge information loss and omissions in cart2pol transformations, improving accuracy for image boundaries.
 Added the following macro definitions:
