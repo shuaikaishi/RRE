@@ -23,7 +23,7 @@ Run `python main.py img.png` will obtain the figures below.
 - and the third row is the image transformed back into **Cartesian space**.
 
 The first two columns are generated using the original `cv2.WARP_POLAR_LINEAR` and `cv2.WARP_POLAR_LOG`.
-
+The original method focuses too much on the centre of the image in the Cartesian coordinate system. For example, the cross in the image in Cartesian coordinates takes up too much area in polar coordinates, especially when using `WARP_POLAR_LOG`. This image is from the official [opencv example](https://docs.opencv.org/3.4/da/d54/group__imgproc__transform.html#ga49481ab24fdaa0ffa4d3e63d14c0d5e4).
 
 ![](img_res.png)
 
