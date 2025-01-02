@@ -14,6 +14,15 @@ scaling.
 `WARP_POLAR_SQUARE`: Performs radial square sampling, compensating for shrinking
 sectors to preserve edge details.
 
+
+
+
+## test
+Run `python main.py img.png` will obtain the figures below. 
+
+The first two columns are generated using the original `cv2.WARP_POLAR_LINEAR` and `cv2.WARP_POLAR_LOG`.
+
+
 ![](img_res.png)
 
 
