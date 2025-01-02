@@ -19,6 +19,9 @@ sectors to preserve edge details.
 
 ## test
 Run `python main.py img.png` will obtain the figures below. 
+- The first row is the original image in Cartesian space;
+- the second row is the image transformed into polar coordinate space;
+- and the third row is the image transformed back into Cartesian space.
 
 The first two columns are generated using the original `cv2.WARP_POLAR_LINEAR` and `cv2.WARP_POLAR_LOG`.
 
