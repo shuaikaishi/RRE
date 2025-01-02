@@ -1,5 +1,4 @@
-# RRE
-Mapping an image from Cartesian space to Polar space
+# Mapping an image from Cartesian space to Polar space
 
 Adding new functionality to `cv.warpPolar` in [opencv](https://github.com/opencv/opencv/)
 
@@ -17,7 +16,7 @@ sectors to preserve edge details.
 
 
 
-## test
+## Test
 Run `python main.py img.png` will obtain the figures below. 
 - The first row is the original image in Cartesian space;
 - the second row is the image transformed into polar coordinate space;
