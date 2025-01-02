@@ -42,10 +42,10 @@ Run `python main_inv.py img.png` will obtain the figures below.
 
 The first two columns are generated using the original `cv2.WARP_POLAR_LINEAR` and `cv2.WARP_POLAR_LOG`. The original method focuses excessively on the centre of the image in Cartesian space.
 
-![](img_res_inv.png)
+![](img_res_inverse.png)
 
 
 Another example
 
-![](img2_res_inv.png)
+![](img2_res_inverse.png)
 
