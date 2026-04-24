@@ -8,7 +8,7 @@ Put the data at ./data/ and run python main.py
 
 ## Test
 
-The pretraining weight best.pt is at
+The pretraining weight best.pt is at [pre-training weight](https://drive.google.com/file/d/1jtAgakysIMKA7605xgHY47dyrxJbYSNM/view?usp=drive_link)
 
 ## Contact Information:
 If you encounter any bugs while using this code, please do not hesitate to contact us.
