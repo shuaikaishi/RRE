@@ -203,7 +203,7 @@ def main(args):
     if load_weight == True:
 
         checkpoint_dir = args.results_dir
-        checkpoint = torch.load(checkpoint_dir + '/best.pt', map_location='cpu')
+        checkpoint = torch.load(checkpoint_dir + '/rre.pt', map_location='cpu')
 
         current_epoch = checkpoint["epoch"] + 1
 
@@ -340,7 +340,7 @@ def main(args):
                                 "model": ema.ema_model.state_dict(),
                                 "epoch": epoch
                             }
-                            checkpoint_path = f"{checkpoint_dir}/best.pt"
+                            checkpoint_path = f"{checkpoint_dir}/rre.pt"
                             torch.save(checkpoint, checkpoint_path)
                             logger.info(f"Saved checkpoint to {checkpoint_path}")
                 model.train()
@@ -376,7 +376,7 @@ def test(args):
         logger.addHandler(logging.NullHandler())
     model = ModelT(modelname=args.results_dir[0:3])
     model = model.to(device)
-    state_dict = torch.load(checkpoint_dir + '/best.pt', map_location='cpu', weights_only = True)
+    state_dict = torch.load(checkpoint_dir + '/rre.pt', map_location='cpu', weights_only = True)
 
     model.load_state_dict(state_dict['model'])
     gpuname = torch.cuda.get_device_name(0)
