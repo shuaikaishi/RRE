@@ -466,24 +466,22 @@ def test(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-path", type=str,default="../../data/dataNew")
-    parser.add_argument("--results-dir", type=str, default="rre40s05")
+    parser.add_argument("--results-dir", type=str, default="rre")
     parser.add_argument("--image-size", type=int, choices=[256, 512], default=256)
     parser.add_argument("--epochs", type=int, default=1400)
     parser.add_argument("--global-batch-size", type=int, default=64)
+    parser.add_argument("--mode", type=str, choices=["train", "test"], default="test")
     parser.add_argument("--global-seed", type=int, default=42)
     parser.add_argument("--num-workers", type=int, default=4)
     parser.add_argument("--log-every", type=int, default=500)
     parser.add_argument("--ckpt-every", type=int, default=500)
     args = parser.parse_args()
 
-    if os.name == 'nt':
+    if args.mode == 'test':
         test(args)
     else:
-        tic = time()
+ 
         main(args)
-        toc = time()
-        print('train time', toc - tic)
-        test(args)
-        tic = time()
-        print('test time', tic - toc)
+ 
+ 
      
