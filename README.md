@@ -9,7 +9,7 @@ Put the data at `./data/` and run `python main.py --mode train`
 
 ## Test
 
-The pretraining weight best.pt is at [pre-training weight](https://drive.google.com/file/d/1jtAgakysIMKA7605xgHY47dyrxJbYSNM/view?usp=drive_link)
+The pretraining weight `best.pt` is at [pre-training weight](https://drive.google.com/file/d/1jtAgakysIMKA7605xgHY47dyrxJbYSNM/view?usp=drive_link)
 
 Download the pretraining weight and put it to `./rre/`
 
