@@ -5,7 +5,7 @@ The code in this toolbox implements the "Learning Rotation and Reflection Equiva
 ## Training
 Dataset EIDORS generated data is at [dataset](https://drive.google.com/file/d/16NsMTAI_Xmae6-sGrHK2THU-LdsKEcYj/view?usp=drive_link)
 
-Put the data at ./data/ and run `python main.py --mode train`
+Put the data at `./data/` and run `python main.py --mode train`
 
 ## Test
 
