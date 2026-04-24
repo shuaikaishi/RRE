@@ -4,11 +4,17 @@ The code in this toolbox implements the "Learning Rotation and Reflection Equiva
 
 ## Training
 
-Put the data at ./data/ and run python main.py 
+Put the data at ./data/ and run `python main.py --mode train`
 
 ## Test
 
 The pretraining weight best.pt is at [pre-training weight](https://drive.google.com/file/d/1jtAgakysIMKA7605xgHY47dyrxJbYSNM/view?usp=drive_link)
+
+Download the pretraining weight and put it to `./results/`
+
+`run python main.py --mode test`
+
+The prediction will be at `./results/`
 
 ## Contact Information:
 If you encounter any bugs while using this code, please do not hesitate to contact us.
