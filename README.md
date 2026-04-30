@@ -3,7 +3,7 @@
 The code in this toolbox implements the "Learning Rotation and Reflection Equivariant Representations for Electrical Impedance Tomography Reconstruction". More specifically, it is detailed as follow.
 
 ## Training
-Dataset EIDORS generated data is at [dataset](https://drive.google.com/file/d/16NsMTAI_Xmae6-sGrHK2THU-LdsKEcYj/view?usp=drive_link)
+Dataset EIDORS generated data is at [training&valid](https://drive.google.com/file/d/1F6v90evQkIxNyfYI34ezZGsR0I_tPks0/view?usp=drive_link) [testset](https://drive.google.com/file/d/16NsMTAI_Xmae6-sGrHK2THU-LdsKEcYj/view?usp=drive_link)
 
 Put the data at `./data/` and run `python main.py --mode train`
 
