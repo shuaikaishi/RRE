@@ -465,7 +465,7 @@ def test(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-path", type=str,default="../../data/dataNew")
+    parser.add_argument("--data-path", type=str,default="./data")
     parser.add_argument("--results-dir", type=str, default="rre")
     parser.add_argument("--image-size", type=int, choices=[256, 512], default=256)
     parser.add_argument("--epochs", type=int, default=1400)
