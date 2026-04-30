@@ -5,6 +5,8 @@ The code in this toolbox implements the "Learning Rotation and Reflection Equiva
 ## Training
 Dataset EIDORS generated data is at [training&valid](https://drive.google.com/file/d/1F6v90evQkIxNyfYI34ezZGsR0I_tPks0/view?usp=drive_link) [testset](https://drive.google.com/file/d/16NsMTAI_Xmae6-sGrHK2THU-LdsKEcYj/view?usp=drive_link)
 
+Real-world data: Two real-world data can be downloaded from UEF2017 for the 2D electrical impedance tomography dataset collected by the Finnish Inverse Problems Society at the University of Eastern Finland in 2017 (UEF2017) and KTC2023 for the Kuopio Tomography Challenge 2023.
+
 Put the data at `./data/` and run `python main.py --mode train`
 
 ## Test
